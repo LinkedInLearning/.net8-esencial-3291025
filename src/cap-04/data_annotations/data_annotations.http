@@ -1,0 +1,6 @@
+@data_annotations_HostAddress = http://localhost:5195
+
+GET {{data_annotations_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

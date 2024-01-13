@@ -1,0 +1,7 @@
+scrape_configs:
+  - job_name: 'wpm'
+    scheme: 'https'
+    static_configs:
+      - targets: ['localhost:9090', 'host.docker.internal:7121']
+    tls_config:
+      insecure_skip_verify: true
